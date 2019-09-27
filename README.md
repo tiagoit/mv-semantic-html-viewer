@@ -1,6 +1,6 @@
 # Semantic HTML Viewer (Browser Extension)
 
-Extension to reveal the usage of semantic HTML tags on any website.
+Browser extension to reveal the usage of semantic HTML tags on any website.
 
 ### Technology
 
