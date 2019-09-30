@@ -1,6 +1,6 @@
 {
   "name": "Semantic HTML Viewer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Chrome extension to reveal the usage of semantic HTML tags on any website.",
   "permissions": [
     "activeTab",
