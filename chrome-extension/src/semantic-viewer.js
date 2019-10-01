@@ -1,23 +1,21 @@
 let tags = [
-  { name: "Header", borderWidth: '5px', borderColor: '#ff9800' },
-  { name: "Nav", borderWidth: '5px', borderColor: '#e91e63' },
-  { name: "Main", borderWidth: '5px', borderColor: '#f44336' },
-  { name: "Article", borderWidth: '5px', borderColor: '#03a9f4' },
-  { name: "Section", borderWidth: '5px', borderColor: '#4caf50' },
-  { name: "Aside", borderWidth: '5px', borderColor: '#9c27b0' },
-  { name: "Footer", borderWidth: '5px', borderColor: '#673ab7' },
-  { name: "H1", borderWidth: '3px', borderColor: '#cddc39' },
-  { name: "H2", borderWidth: '3px', borderColor: '#cddc39' },
-  { name: "H3", borderWidth: '3px', borderColor: '#cddc39' },
-  { name: "H4", borderWidth: '3px', borderColor: '#cddc39' },
-  { name: "H5", borderWidth: '3px', borderColor: '#cddc39' },
-  { name: "H6", borderWidth: '3px', borderColor: '#cddc39' },
-  { name: "H7", borderWidth: '3px', borderColor: '#cddc39' },
+  { name: "Header", borderWidth: '3px', borderColor: '#03a9f4' },
+  { name: "Nav", borderWidth: '3px', borderColor: '#9c27b0' },
+  { name: "Main", borderWidth: '3px', borderColor: '#f44336' },
+  { name: "Article", borderWidth: '3px', borderColor: '#ff9800' },
+  { name: "Section", borderWidth: '3px', borderColor: '#4caf50' },
+  { name: "Aside", borderWidth: '3px', borderColor: '#e91e63' },
+  { name: "Footer", borderWidth: '3px', borderColor: '#673ab7' },
+  { name: "H1", borderWidth: '2px', borderColor: '#cddc39' },
+  { name: "H2", borderWidth: '2px', borderColor: '#cddc39' },
+  { name: "H3", borderWidth: '2px', borderColor: '#cddc39' },
+  { name: "H4", borderWidth: '2px', borderColor: '#cddc39' },
+  { name: "H5", borderWidth: '2px', borderColor: '#cddc39' },
+  { name: "H6", borderWidth: '2px', borderColor: '#cddc39' },
+  { name: "H7", borderWidth: '2px', borderColor: '#cddc39' },
 ];
 
-// #ffc107
-
-// Add colored borders and titles to each semantic element
+// Adds colored borders and titles to each semantic element
 tags.forEach((tag) => {
   let tags = document.getElementsByTagName(tag.name.toLowerCase());
   for (let i = 0; i < tags.length; i++) {
@@ -32,7 +30,6 @@ tags.forEach((tag) => {
 let box = document.createElement("div")
 // box.innerHTML = "Some arb ddtext";
 box.style.display = "block";
-box.style.width = "90px";
 box.style.position = "fixed";
 box.style.top = "16px";
 box.style.right = "16px";
