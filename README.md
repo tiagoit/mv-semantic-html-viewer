@@ -1,19 +1,28 @@
-# Semantic HTML Viewer (Browser Extension)
-
+# 📃 Semantic HTML Viewer (Browser Extension)
 Browser extension to reveal the usage of semantic HTML tags on any website.
 
-### Technology
+**Chrome Extension** - [Chrome Web Store](https://chrome.google.com/webstore/detail/semantic-html-viewer/glapikbnefnagjolgppjefchjkjffhog)
 
-HTML, CSS, Javascript, Chrome / Firefox Extension APIs
+## 📡 Technologies used
+- HTML
+- CSS
+- Javascript
+- Chrome Extension APIs
 
-### Authors
+## 🚀 The project
+This project can be found in https://github.com/tiagoit/mv-semantic-html-viewer
 
-- **Tiago Ferreira** - [@ferreirati](https://github.com/ferreirati)
+## ✨ [live version](https://chrome.google.com/webstore/detail/semantic-html-viewer/glapikbnefnagjolgppjefchjkjffhog)
 
-### Contributors
+## 💻 Serve it on localhost
+  - Clone the repository
+  - Run your favorite webserver pointing to `/src` folder
 
-- **Mario Dena** - [](https://github.com/)
+## 🤖 Contributors
+Tiago Ferreira @ [tiagoit](https://github.com/tiagoit)
 
-### Links
+## 🙋‍♂ Show your support
+Give a ⭐️ if you like this project!
 
-- **Chrome Extension** - [Chrome Web Store](https://chrome.google.com/webstore/detail/semantic-html-viewer/glapikbnefnagjolgppjefchjkjffhog)
+## 📝 License
+This project is [MIT](https://github.com/tiagoit/mv-semantic-html-viewer/license.txt) licensed.
